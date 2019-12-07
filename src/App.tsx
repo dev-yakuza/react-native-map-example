@@ -3,7 +3,11 @@ import Styled from 'styled-components/native';
 // Apple Map
 // import Map from '~/AppleMap';
 // Google Map
-import Map from '~/GoogleMap';
+// import Map from '~/GoogleMap';
+// Initial location
+// import Map from '~/InitialLocation';
+// Marker
+import Map from '~/MarkerOnMap';
 
 const Container = Styled.View`
     flex: 1;
