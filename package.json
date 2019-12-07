@@ -11,17 +11,24 @@
   },
   "dependencies": {
     "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react-native": "0.61.5",
+    "styled-components": "4.4.1"
   },
   "devDependencies": {
     "@babel/core": "7.7.5",
     "@babel/runtime": "7.7.5",
     "@react-native-community/eslint-config": "0.0.5",
+    "@types/react": "16.9.15",
+    "@types/react-native": "0.60.24",
+    "@types/styled-components": "4.4.0",
     "babel-jest": "24.9.0",
+    "babel-plugin-root-import": "6.4.1",
+    "babel-plugin-styled-components": "1.10.6",
     "eslint": "6.7.2",
     "jest": "24.9.0",
     "metro-react-native-babel-preset": "0.56.3",
-    "react-test-renderer": "16.9.0"
+    "react-test-renderer": "16.9.0",
+    "typescript": "3.7.3"
   },
   "jest": {
     "preset": "react-native"
