@@ -1,20 +1,17 @@
 import React from 'react';
 import Styled from 'styled-components/native';
-// Apple Map
-// import Map from '~/AppleMap';
-// Google Map
-import Map from '~/GoogleMap';
+import MapView from 'react-native-maps';
 
 const Container = Styled.View`
     flex: 1;
 `;
 
-const App = () => {
+const AppleMap = () => {
   return (
     <Container>
-      <Map />
+      <MapView style={{flex: 1}} />
     </Container>
   );
 };
 
-export default App;
+export default AppleMap;
