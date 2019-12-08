@@ -7,7 +7,11 @@ import Styled from 'styled-components/native';
 // Initial location
 // import Map from '~/InitialLocation';
 // Marker
-import Map from '~/MarkerOnMap';
+// import Map from '~/MarkerOnMap';
+// User Location
+// import Map from '~/UserLocation';
+// Track User Location
+import Map from '~/TrackUserLocation';
 
 const Container = Styled.View`
     flex: 1;
